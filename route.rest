@@ -1,0 +1,22 @@
+GET http://localhost:3000/news
+
+###
+
+GET http://localhost:3000/news/64171733be327e5d1d2b916d
+
+###
+
+POST http://localhost:3000/news
+Content-Type: application/json
+
+{
+    "Headline": "India Wins again",
+    "Byline": "India Goes Unbeaten for the 10th year in cricket",
+    "location":"Chepauk",
+    "Description":"Lorem Ipsum dolor ........",
+    "author":"Vijaythraj"
+}
+
+###
+
+DELETE http://localhost:3000/news/64171733be327e5d1d2b916d
